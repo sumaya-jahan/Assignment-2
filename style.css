@@ -267,7 +267,7 @@ header{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 100px; 
 }
   .epi-card {
   border-radius: 18px;
