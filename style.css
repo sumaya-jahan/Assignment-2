@@ -139,3 +139,17 @@ header{
   border: 1px solid #00FF88;
   padding: 12px 20px;
 }
+
+/* New Badge */
+.new{
+  position: absolute;
+  background: #00FF88;
+  border-radius: 20px;
+  font-size: 1.125rem;
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #1A0B2E;
+  top:19%;
+  left:59%;
+  transform: translate(-50%, -50%);
+}
