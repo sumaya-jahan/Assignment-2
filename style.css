@@ -69,6 +69,8 @@ header{
 
 /* banner related styles */
 .container{
+  display: grid;
+  place-items: center;
   position: relative;
   max-width: 1600px;
 }
@@ -152,4 +154,30 @@ header{
   top:19%;
   left:59%;
   transform: translate(-50%, -50%);
+}
+
+/* About section */
+.about{
+  max-width: 1600px;
+}
+.podcast-description,
+.engagement{
+  width:75%;
+  margin:0 auto;
+}
+.podcast-description{
+  text-align: center;
+}
+.podcast-description h2{
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.podcast-description p{
+  color: #ffffff;
+}
+
+.engagement{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
 }
