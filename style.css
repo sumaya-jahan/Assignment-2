@@ -191,6 +191,7 @@ header{
   margin: 0 auto;
   color: #2a124f;
   padding-top: 30px;
+  padding-bottom: 40px;
   
 }
 .why-choose h2{
@@ -236,3 +237,103 @@ header{
   grid-column:span 1;
   grid-row:span 1 ;
 }
+
+/* featured section */
+.featured{
+  margin-top: 40px;
+  
+}
+.featured-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featured-title,
+.host-title{
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.episodes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 100px;
+}
+  .epi-card {
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 12px 35px black;
+  background: linear-gradient(180deg, #401d69, #390560);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.videos{
+  /* position: relative; */
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.videos iframe{
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+
+.epi-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.epi-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.time-1,
+.time-2,
+.time-3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+  color: #3cff9e;
+  font-size: 0.50rem;
+}
+
+.meet-host {
+  margin-top: 60px;
+}
+ .host {
+  display: flex;
+   gap: 32px;
+  align-items: center;
+  background: linear-gradient(180deg, #35105e, #1a042c);
+  border-radius: 20px;
+  padding: 36px;
+}
+.about-host h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.about-host p {
+  font-size: 1rem;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+}
+.social img {
+  padding: 6px;
+  transition: transform 0.25s ease;
+}
+
+
+/* footer-styles */
